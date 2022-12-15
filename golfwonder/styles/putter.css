@@ -1,6 +1,5 @@
-
 body{
-    background-color: white;
+    background-color: #dda15e;
     font-family: Helvetica, sans-serif;
     font-size: 23px;
     margin: auto;
@@ -8,12 +7,12 @@ body{
     text-align: center;
 }
 header{
-    background-color: #2a9d8f ;
+    background-color: #fefae0  ;
     display: grid;
     grid-template-columns: 170px auto; 
 }
 .book, .join{
-    background-color: #e9c46a;
+    background-color: #457b9d;
     color: black;
     text-decoration: none;
     font-size: 18px;
@@ -21,21 +20,18 @@ header{
     margin-top: 50px;
     border-radius: 5px;
 }
-.book:hover, .join:hover{
-    color: black;
-}
+
 
 
 main section img{
     box-sizing: border-box;
-    float: left;
 }
 .msg h2{
     color: black;
     font: '';
 }
 .msg{
-    background-color: #6f7364;
+    background-color: #457b9d;
     padding: 35px;
     grid-column: 6/10;
     grid-row: 2/7;
@@ -58,6 +54,4 @@ main section{
 footer p{
     font-size: 1.2em;
 }
-
-
 
