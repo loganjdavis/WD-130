@@ -12,7 +12,7 @@ Fonts are separated by a | */
 
   /* change the values below to your chosen font(s) */
   --heading-font: "IM Fell French Canon SC";
-  --paragraph-font: Roboto, Open Sans;
+  --paragraph-font:Roboto, Open Sans;
 
   /* these colors below should be chosen from among your palette colors above */
   --headline-color-on-white: #606c38 ;  /* headlines on a white background */ 
@@ -34,7 +34,7 @@ body {
   margin: 0 auto;
   padding: 4em;
   font-size: 18px;
-  text-align: left;
+  text-align: center;
   
 }
 img {
@@ -43,11 +43,6 @@ img {
   max-width: 700px;
   
 }
-h1, h2, h3, h4, h5, h6 {
-  font-family: var(--heading-font);
-  color: var(--headline-color-on-white);
-}
- 
 h2 {
   text-align: center;
 }
@@ -56,8 +51,6 @@ hr {
   margin: 35px 0;
   background: var(--accent1-color);
 }
-
-
 header {
   padding: 1em;
   text-align: center;
@@ -65,16 +58,7 @@ header {
   background-color: var(--paragraph-background-color);
   
 }
-header > h1, header > h2 {
-  color: var(--headline-color-on-color);
-}
 
-p {
-  font-family: var(--paragraph-font);
-  color: var(--paragraph-color-on-white);
-  padding: 1em;
-  float:;
-}
 .colors {
   width: 100%;
   min-width: 350px;
@@ -131,53 +115,4 @@ nav a:link, nav a:visited {
 nav a:hover {
   color: var(--nav-hover-link-color);
   background-color: var(--nav-hover-background-color);
-}
-
-.sitemap {
-  display: grid;
-  justify-content: center;
-
-  grid-template-columns: repeat(6, 15%);
-  grid-template-rows: 3em 1.5em 1.5em 3em;
-  grid-template-areas: ". . home home . ."
-    ". . . top . ."
-    ". left left right right ."
-    "page2 page2 . . page3 page3";
-}
-.sitemap > div {
-
-  text-align: center;
-
-}
-.sm-home {
-  grid-area: home;
-  background-color: #ccc;
-  line-height: 3em;
-}
-.sm-page2 {
-  grid-area: page2;
-  background-color: #ccc;
-  line-height: 3em;
-}
-.sm-page3 {
-  grid-area: page3;
-  background-color: #ccc;
-  line-height: 3em;
-}
-
-.top {
-  grid-area: top;
-  border-left: 1px solid;
-}
-
-.left {
-  grid-area: left;
-  border-top: 1px solid;
-  border-left: 1px solid;
-}
-
-.right {
-  grid-area: right;
-  border-top: 1px solid;
-  border-right: 1px solid;
 }
