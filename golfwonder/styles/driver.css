@@ -3,7 +3,7 @@ body{
     background-color: white;
     font-family: Helvetica, sans-serif;
     font-size: 23px;
-    margin: 0;
+    margin: 500;
     padding: 0;
     text-align: center;
 }
@@ -92,7 +92,7 @@ main section img{
 }
 .msg h2{
     color: black;
-    font: 'Montserrat';
+    font: '';
 }
 .msg{
     background-color: #6f7364;
@@ -154,9 +154,6 @@ footer .socail img{
     padding-top: 10px;
 }
 
-/* #2a9d8f */
-/* #e9c46a */
-/* #f4a261 */
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
@@ -182,20 +179,13 @@ footer .socail img{
         font-size: 25px;
         color: #6f7364;
     }
-    .rivers-card, .camping-card, .rapids-card { 
-        margin: 50px auto;
-        width: 60%;
-    }
     #background {
         display: none;
-    }
-    .mountains, .msg {
-        width: 80%;
-        display: block;
-        margin: 0 auto;
+    
     }
     footer {
         margin-top: 25px;
+        float: left;
     }
 }
     
